@@ -10,109 +10,7 @@
 </head>
 
 <body>
-<div class="wapper_box">
-<div class="header_box"></div>
-<div class="header_box1">
-    <div class="header_box2">
-         <a class="logo_box" href="index.html"><img src="images/logo.png"/></a>
-         <ul class="nav_box">
-             <li class="nav_1"><a class="nav_but" href="index.html">网站首页</a></li>
-             <li class="nav_1"><a class="nav_but" href="guanyuhuaqi.html">上市辅导</a>
-               <div class="nav_slide">
-                 <div class="nav_slide1">
-                    <a href="">要求条件<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">详细流程<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">上市申请<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-                </div> 
-             </li>
-             <li class="nav_1"><a class="nav_but" href="yewujieshao.html">热点信息</a>
-                <div class="nav_slide">
-                  <div class="nav_slide1">
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                  </div>
-                </div> 
-             </li>
-             <li class="nav_1"><a class="nav_but" href="xinwenzhongxin.html">日常更新</a>
-               <div class="nav_slide">
-                <div class="nav_slide1">
-                    <a href="">行业最新动态<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">交易所动态<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-               </div>  
-             </li>
-             <li class="nav_1"><a class="nav_but" href="chenggonganli.html">常见问题</a>
-               <div class="nav_slide">
-                 <div class="nav_slide1">
-                    <a href="">关于费用<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">关于售后<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">关于XX<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-              </div>  
-             </li>
-             <li class="nav_1"><a class="nav_but" href="lianxiwomen.html">联系我们</a>
-               <div class="nav_slide">
-                 <div class="nav_slide1">
-                    <a href="">公司简介<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">公司新闻<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">未来发展<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">联系方式<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-              </div>  
-             </li>
-             <!--<li class="nav_1"><a class="nav_but" href="rencaizhaopin.html">人才招聘</a></li>-->
-             <li class="nav_1"><a class="nav_but" href="liuyanban.html">留言板</a></li>
-         </ul>
-    </div>
-        <script>	 
-             $(".nav_1").mouseenter(function(){
-				 $(this).find(".nav_slide").slideDown()
-			  });
-			  
-			  $(".nav_1").mouseleave(function(){ 
-				 $(".nav_slide").slideUp()
-			 });
-			 //$(".producys_box").mouseout(function(){
-				// $(this).find(".producys_box1").slideUp(); 
-			 //});
-          </script>
-</div>
-<!--banner部分开始-->
-  <div class="banner_box">
-        <ul class="banner_pic">
-            <li><img src="images/banner1.jpg" /></li>
-            <li><img src="images/banner2.jpg" /></li>
-            <li><img src="images/banner2.jpg" /></li>
-    
-        </ul>
-        <a class="prev" href="javascript:void(0)"></a>
-        <a class="next" href="javascript:void(0)"></a>
-        <div class="num"><ul></ul></div>
-  </div>
-	<script>
-    /*鼠标移过，左右按钮显示*/
-    $(".banner_box").hover(function(){
-        $(this).find(".prev,.next").fadeTo("show",0.1);
-    },function(){
-        $(this).find(".prev,.next").hide();
-    })
-    /*鼠标移过某个按钮 高亮显示*/
-    $(".prev,.next").hover(function(){
-        $(this).fadeTo("show",0.7);
-    },function(){
-        $(this).fadeTo("show",0.1);
-    })
-    $(".banner_box").slide({ titCell:".num ul" , mainCell:".banner_pic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
-    </script>
-    <!-- 代码 结束 -->
-  <!--banner部分结束-->
-
+<script src="js/header.js" type="text/javascript"></script>
 <!--内容开始-->
 <div class="content_box">
    <ul class="content_box_top">
@@ -212,9 +110,7 @@
 </div>
 
 <!--内容结束--> 
-<div class="footer_box"><P>版权信息：上海XX集团科技有限公司</p></div>
-
-</div>
+<script src="js/footer.js" type="text/javascript"></script>
 
 
 </body>
