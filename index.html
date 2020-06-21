@@ -10,133 +10,149 @@
 </head>
 
 <body>
-<div class="wapper_box">
-<div class="header_box"></div>
-<div class="header_box1">
-    <div class="header_box2">
-         <a class="logo_box" href="index.html"><img src="images/logo.png"/></a>
-         <ul class="nav_box">
-             <li class="nav_1"><a class="nav_but" href="index.html">网站首页</a></li>
-             <li class="nav_1"><a class="nav_but" href="guanyuhuaqi.html">上市辅导</a>
-               <div class="nav_slide">
-                 <div class="nav_slide1">
-                    <a href="">要求条件<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">详细流程<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">上市申请<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-                </div> 
-             </li>
-             <li class="nav_1"><a class="nav_but" href="yewujieshao.html">热点信息</a>
-                <div class="nav_slide">
-                  <div class="nav_slide1">
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">待定<span><img src="images/siade_bg1.png"/></span></a>
-                  </div>
-                </div> 
-             </li>
-             <li class="nav_1"><a class="nav_but" href="xinwenzhongxin.html">日常更新</a>
-               <div class="nav_slide">
-                <div class="nav_slide1">
-                    <a href="">行业最新动态<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">交易所动态<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-               </div>  
-             </li>
-             <li class="nav_1"><a class="nav_but" href="chenggonganli.html">常见问题</a>
-               <div class="nav_slide">
-                 <div class="nav_slide1">
-                    <a href="">关于费用<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">关于售后<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">关于XX<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-              </div>  
-             </li>
-             <li class="nav_1"><a class="nav_but" href="lianxiwomen.html">联系我们</a>
-               <div class="nav_slide">
-                 <div class="nav_slide1">
-                    <a href="">公司简介<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">公司新闻<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">未来发展<span><img src="images/siade_bg1.png"/></span></a>
-                    <a href="">联系方式<span><img src="images/siade_bg1.png"/></span></a>
-                 </div>
-              </div>  
-             </li>
-             <!--<li class="nav_1"><a class="nav_but" href="rencaizhaopin.html">人才招聘</a></li>-->
-             <li class="nav_1"><a class="nav_but" href="liuyanban.html">留言板</a></li>
-         </ul>
-    </div>
-        <script>	 
-             $(".nav_1").mouseenter(function(){
-				 $(this).find(".nav_slide").slideDown()
-			  });
-			  
-			  $(".nav_1").mouseleave(function(){ 
-				 $(".nav_slide").slideUp()
-			 });
-			 //$(".producys_box").mouseout(function(){
-				// $(this).find(".producys_box1").slideUp(); 
-			 //});
-          </script>
-</div>
-<!--banner部分开始-->
-  <div class="banner_box">
-        <ul class="banner_pic">
-            <li><img src="images/banner1.jpg" /></li>
-            <li><img src="images/banner2.jpg" /></li>
-            <li><img src="images/banner2.jpg" /></li>
-    
-        </ul>
-        <a class="prev" href="javascript:void(0)"></a>
-        <a class="next" href="javascript:void(0)"></a>
-        <div class="num"><ul></ul></div>
-  </div>
-	<script>
-    /*鼠标移过，左右按钮显示*/
-    $(".banner_box").hover(function(){
-        $(this).find(".prev,.next").fadeTo("show",0.1);
-    },function(){
-        $(this).find(".prev,.next").hide();
-    })
-    /*鼠标移过某个按钮 高亮显示*/
-    $(".prev,.next").hover(function(){
-        $(this).fadeTo("show",0.7);
-    },function(){
-        $(this).fadeTo("show",0.1);
-    })
-    $(".banner_box").slide({ titCell:".num ul" , mainCell:".banner_pic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
-    </script>
-    <!-- 代码 结束 -->
-  <!--banner部分结束-->
+<iframe src="./header.html" frameborder="0" frameborder="1" scrolling="no" width="100%" height="600px"  name="index"></iframe>
+
 
 <!--内容开始-->
 <div class="content_box">
    <ul class="content_box_top">
       <li>
-        <a href=""><img src="images/icon1.png"/></a>
-        <h3 class="obj_title">资产收购业务</h3>
+        <a href=""><img src="images/icon1_1.png" style=" height: 100% "/></a>
+        <h3 class="obj_title">专业团队</h3>
         <p>资产直接或间接导致资金或现金等<br />价物流入企业的潜力</p>
       </li>
       <li>
-        <a href=""><img src="images/icon2.png"/></a>
-        <h3 class="obj_title">资产委托业务</h3>
+        <a href=""><img src="images/icon2_1.png"/></a>
+        <h3 class="obj_title">国际视野</h3>
         <p>资产直接或间接导致资金或现金等<br />价物流入企业的潜力</p>
       </li>
       <li>
-        <a href=""><img src="images/icon3.png"/></a>
-        <h3 class="obj_title">资产管理业务</h3>
+        <a href=""><img src="images/icon3_1.png"/></a>
+        <h3 class="obj_title">研究领先</h3>
         <p>资产直接或间接导致资金或现金等<br />价物流入企业的潜力</p>
       </li>
       <li>
-        <a href=""><img src="images/icon4.png"/></a>
-        <h3 class="obj_title">资产处置业务</h3>
+        <a href=""><img src="images/icon4_1.png"/></a>
+        <h3 class="obj_title">优质服务</h3>
         <p>资产直接或间接导致资金或现金等<br />价物流入企业的潜力</p>
       </li> 
    </ul>
+   <div class="hotmap">
+      <div class="i_about">
+        <div class="i_title">
+          <h2>关于XX</h2>
+          <div style="height: 10px;width: 100%;margin: 0 auto;color: #ff4e00;font-weight: bold;">
+              <div style="width: 30%; height: 5px; display: inline-block;background-color: #cdcdcd; margin-right: 20px;"></div>
+              ABOUT US
+              <div style="width: 30%; height: 5px; display: inline-block;background-color: #cdcdcd; margin-left: 20px;"></div>
+          </div>
+          
+        </div>
+        <div class="i_about_c">
+          <p>XX资本GREENPRO&nbsp;CAPITAL&nbsp;CORP于2018年6月13日获得美国证监会(SEC)批准<br>
+          成功从美国OTC转板纳斯达克&nbsp;(股票交易代码:GRNQ)，成为首家前海挂牌企业自主境外上市企业，也将积极为<br>
+          亚洲区域业打造资本市场新格局，创造出“价值资本化、财富国际化”的国际金融创新资本平台。</p>   
+        </div>
+        <div class="i_title2">
+          <h2>XX服务区域 / Service Area Map</h2>
+        </div>
+        
+
+      </div>
+
+
+
+
+      <script src="js/echarts.min.js"></script>
+      <script src="js/china.js"></script>
+      <div id="container" style="height: 800px;width:1200px;background:#eeeeee;margin:20px 0 0;"></div>
+ 
+      <script type="text/javascript">
+          // 全国省份列表
+       
+      function randomData() {  
+          return Math.round(Math.random()*500);
+      }  
+       
+      var dataMap =[  
+          {name: '北京',value: '100' },{name: '天津',value: randomData() },  
+          {name: '上海',value: randomData() },{name: '重庆',value: randomData() },  
+          {name: '河北',value: randomData() },{name: '河南',value: randomData() },  
+          {name: '云南',value: randomData() },{name: '辽宁',value: randomData() },  
+          {name: '黑龙江',value: randomData() },{name: '湖南',value: randomData() },  
+          {name: '安徽',value: randomData() },{name: '山东',value: randomData() },  
+          {name: '新疆',value: randomData() },{name: '江苏',value: randomData() },  
+          {name: '浙江',value: randomData() },{name: '江西',value: randomData() },  
+          {name: '湖北',value: randomData() },{name: '广西',value: randomData() },  
+          {name: '甘肃',value: randomData() },{name: '山西',value: randomData() },  
+          {name: '内蒙古',value: randomData() },{name: '陕西',value: randomData() },  
+          {name: '吉林',value: randomData() },{name: '福建',value: randomData() },  
+          {name: '贵州',value: randomData() },{name: '广东',value: randomData() },  
+          {name: '青海',value: randomData() },{name: '西藏',value: randomData() },  
+          {name: '四川',value: randomData() },{name: '宁夏',value: randomData() },  
+          {name: '海南',value: randomData() },{name: '台湾',value: randomData() },  
+          {name: '香港',value: randomData() },{name: '澳门',value: randomData() },{name: '南海诸岛',value: randomData() }
+      ];
+      // 需要在页面上直接标记出来的城市
+       
+      var specialMap = [];
+          // 对dataMap进行处理，使其可以直接在页面上展示
+          for (var i = 0; i < specialMap.length; i++) {
+              for (var j = 0; j < dataMap.length; j++) {
+                  if (specialMap[i] == dataMap[j].name) {
+                      dataMap[j].selected = true;
+                      break;
+                  }
+       
+              }
+          }
+       
+      var option = {
+          tooltip: {
+              formatter: function (params) {
+                  var info = '<p style="font-size:18px">' + params.name + '</p><p style="font-size:14px">已经为' + params.value + '家企业提供服务</p>'
+                  return info;
+              },
+              backgroundColor: "#ff7f50",//提示标签背景颜色
+              textStyle: { color: "#fff" } //提示标签字体颜色
+          },
+          //左侧小导航图标
+          visualMap: {  
+              show : true,  
+              x: 'left',  
+              y: 'center',  
+              splitList: [   
+                  {start: 500, end:600},{start: 400, end: 500},  
+                  {start: 300, end: 400},{start: 200, end: 300},  
+                  {start: 100, end: 200},{start: 0, end: 100},  
+              ],  
+              color: ['#5475f5', '#9feaa5', '#85daef','#74e2ca', '#e6ac53', '#9fb5ea']  
+          }, 
+          series: [
+              {
+                  name: '中国',
+                  type: 'map',
+                  mapType: 'china',
+                  
+                  label: {
+                      normal: {
+                          show: true,//显示省份标签
+                      },
+                      emphasis: {
+                          show: true,//对应的鼠标悬浮效果
+                      }
+                  },
+       
+                  data: dataMap
+              }
+          ]
+      };
+      //初始化echarts实例
+      var myChart = echarts.init(document.getElementById('container'));
+      //使用制定的配置项和数据显示图表
+      myChart.setOption(option);
+      </script>
+   </div>
    <div class="content_box_bot">
        <ul class="content_box_bot_l">
           <li class="info_news">
@@ -164,7 +180,7 @@
           </script>
           </li>
           <li class="search_obj">
-            <p class="search_obj_title">分类搜索<span>Classification search</span></p>
+            <p class="search_obj_title">服务亮点<span>Service highlights</span></p>
             <div class="search_obj1">
                <a href="">一般人</a>  <a href="">小规模</a>  <a href="">企业类型</a>
                <a href="">注册资金</a>  <a href="">年限</a>  <a href="">更多>></a>
@@ -174,7 +190,7 @@
        
       <ul class="content_box_bot_r">
           <li class="jianjie_box">
-            <p class="jianjie_title">关于华企<span>COMPANYP</span></p>
+            <p class="jianjie_title">关于XX<span>COMPANYP</span></p>
             <div class="jianjie_box1">
               <img src="images/jj_pic.jpg"/>
               <a href="">固定资产投资是建造和购置固定资产的经济活动，即固定资产再生产活动。固定资产再生产过程包括固定资产更新（局部和全部更新）、改建、扩建、新建等活动...<span>[详情]</span></a></div>
